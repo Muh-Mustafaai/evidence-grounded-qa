@@ -1,0 +1,28 @@
+
+{
+  "dataset_size": {
+    "documents": 8,
+    "questions": 8
+  },
+  "methods": {
+    "BM25": {
+      "recall_at_1": 0.875,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0
+    },
+    "semantic_retrieval": {
+      "model": "all-MiniLM-L6-v2",
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0
+    },
+    "hybrid_retrieval": {
+      "bm25_weight": 0.5,
+      "semantic_weight": 0.5,
+      "recall_at_1": 0.875,
+      "recall_at_3": 1.0,
+      "recall_at_5": 1.0
+    }
+  },
+  "notes": "Initial pipeline validation on a tiny starter dataset. Results are preliminary and are not evidence of general retrieval performance."
+}
