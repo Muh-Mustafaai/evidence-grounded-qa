@@ -1,0 +1,14 @@
+
+{
+  "method": "BM25",
+  "dataset_size": {
+    "documents": 8,
+    "questions": 8
+  },
+  "metrics": {
+    "recall_at_1": 0.875,
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0
+  },
+  "notes": "Initial results on the small starter dataset. These results are for pipeline testing, not a final research conclusion."
+}
