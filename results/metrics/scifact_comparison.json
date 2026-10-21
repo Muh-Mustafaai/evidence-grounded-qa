@@ -1,0 +1,30 @@
+
+{
+  "dataset": "BEIR SciFact",
+  "split": "test",
+  "documents": 5183,
+  "queries": 300,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "hybrid_weights": {
+    "bm25": 0.5,
+    "semantic": 0.5
+  },
+  "metrics": {
+    "bm25": {
+      "recall_at_1": 0.5075,
+      "recall_at_3": 0.6733,
+      "recall_at_5": 0.7284
+    },
+    "semantic_retrieval": {
+      "recall_at_1": 0.4823,
+      "recall_at_3": 0.6603,
+      "recall_at_5": 0.7379
+    },
+    "hybrid_retrieval": {
+      "recall_at_1": 0.5590,
+      "recall_at_3": 0.7291,
+      "recall_at_5": 0.7772
+    }
+  },
+  "notes": "Preliminary comparison on the SciFact test split. Hybrid uses per-query min-max normalization of BM25 scores and equal weighting with cosine similarity. These results have not been statistically tested."
+}
