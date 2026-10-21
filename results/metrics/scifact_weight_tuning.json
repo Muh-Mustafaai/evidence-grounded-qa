@@ -1,0 +1,50 @@
+{
+  "dataset": "BEIR SciFact",
+  "split": "train",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "score_normalization": "Per-query min-max normalization for BM25",
+  "selection_metric": "Recall@5",
+  "weight_results": {
+    "0.0": {
+      "bm25_weight": 0.0,
+      "semantic_weight": 1.0,
+      "queries_evaluated": 809,
+      "recall_at_1": 0.5035022661722292,
+      "recall_at_3": 0.6738154099711579,
+      "recall_at_5": 0.7347342398022251
+    },
+    "0.25": {
+      "bm25_weight": 0.25,
+      "semantic_weight": 0.75,
+      "queries_evaluated": 809,
+      "recall_at_1": 0.5678203543469303,
+      "recall_at_3": 0.7339101771734652,
+      "recall_at_5": 0.7828388957560773
+    },
+    "0.5": {
+      "bm25_weight": 0.5,
+      "semantic_weight": 0.5,
+      "queries_evaluated": 809,
+      "recall_at_1": 0.5674083230325505,
+      "recall_at_3": 0.7211990111248455,
+      "recall_at_5": 0.7740832303255047
+    },
+    "0.75": {
+      "bm25_weight": 0.75,
+      "semantic_weight": 0.25,
+      "queries_evaluated": 809,
+      "recall_at_1": 0.5496909765142151,
+      "recall_at_3": 0.6928718582612278,
+      "recall_at_5": 0.7487021013597034
+    },
+    "1.0": {
+      "bm25_weight": 1.0,
+      "semantic_weight": 0.0,
+      "queries_evaluated": 809,
+      "recall_at_1": 0.5196126905644829,
+      "recall_at_3": 0.6548619695096827,
+      "recall_at_5": 0.7167696744952616
+    }
+  },
+  "notes": "Weight tuning on the training split. These results are for configuration selection, not final held-out evaluation."
+}
