@@ -1,0 +1,43 @@
+
+[
+  {
+    "question_id": "Q1",
+    "question": "What is machine learning?",
+    "relevant_doc_ids": ["D1"]
+  },
+  {
+    "question_id": "Q2",
+    "question": "Which language is used to query relational databases?",
+    "relevant_doc_ids": ["D2"]
+  },
+  {
+    "question_id": "Q3",
+    "question": "How do search engines find relevant documents?",
+    "relevant_doc_ids": ["D3"]
+  },
+  {
+    "question_id": "Q4",
+    "question": "What does natural language processing help computers do?",
+    "relevant_doc_ids": ["D4"]
+  },
+  {
+    "question_id": "Q5",
+    "question": "How does BM25 rank documents?",
+    "relevant_doc_ids": ["D5"]
+  },
+  {
+    "question_id": "Q6",
+    "question": "How does semantic search find information?",
+    "relevant_doc_ids": ["D6"]
+  },
+  {
+    "question_id": "Q7",
+    "question": "What is hybrid retrieval?",
+    "relevant_doc_ids": ["D7"]
+  },
+  {
+    "question_id": "Q8",
+    "question": "How can retrieval systems be evaluated?",
+    "relevant_doc_ids": ["D8"]
+  }
+]

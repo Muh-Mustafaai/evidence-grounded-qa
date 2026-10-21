@@ -1,0 +1,35 @@
+
+[
+  {
+    "doc_id": "D1",
+    "text": "Machine learning is a branch of artificial intelligence that enables computer systems to learn patterns from data and make predictions without being explicitly programmed for every task."
+  },
+  {
+    "doc_id": "D2",
+    "text": "A relational database organizes information into tables consisting of rows and columns. SQL is commonly used to query, insert, update, and delete data in relational databases."
+  },
+  {
+    "doc_id": "D3",
+    "text": "Information retrieval is the process of finding relevant documents from a collection in response to a user's information need. Search engines are a common example."
+  },
+  {
+    "doc_id": "D4",
+    "text": "Natural language processing is a field of artificial intelligence focused on enabling computers to process, analyze, and understand human language."
+  },
+  {
+    "doc_id": "D5",
+    "text": "BM25 is a ranking method used in information retrieval. It scores documents based on query-term matching, considering term frequency, inverse document frequency, and document length."
+  },
+  {
+    "doc_id": "D6",
+    "text": "Semantic search retrieves information based on meaning and contextual similarity rather than relying only on exact keyword matches. Dense vector embeddings are often used to represent text."
+  },
+  {
+    "doc_id": "D7",
+    "text": "Hybrid retrieval combines multiple retrieval methods, often keyword-based search and semantic search, to improve the chances of finding relevant information."
+  },
+  {
+    "doc_id": "D8",
+    "text": "An evaluation dataset for information retrieval can contain queries and relevance judgments identifying which documents are relevant to each query. These judgments allow retrieval systems to be compared using metrics such as Recall at k."
+  }
+]
